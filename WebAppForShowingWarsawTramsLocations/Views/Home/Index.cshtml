@@ -1,0 +1,16 @@
+﻿<div id="map"></div>
+<br />
+<table id="TramLocationTable" class="table table-hover"></table>
+
+@*<tr><th>Status</th><th>FirstLine</th><th>Lines</th><th>LowFloor</th><th>Latitude</th><th>Longititude</th><th>Time</th><th>Brigade</th></tr>*@
+
+@section Scripts {
+    <script src="~/js/TramLocatorScripts.js"></script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8ZTQUq736o_mfznfBpXGRBZILgOHNGjk&callback=GenerateMap">
+    </script>
+    <script>
+        //GenerateTable();
+        //GenerateMap;
+    </script>
+}
